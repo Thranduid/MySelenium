@@ -23,3 +23,7 @@ class Calculator:
     # 除
     def devision(self):
         return self.a / self.b
+
+    # 余数
+    def yu(self):
+        return self.a % self.b

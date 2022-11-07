@@ -31,6 +31,11 @@ class TestCalcultor(unittest.TestCase):
         result = c.devision()
         self.assertEqual(result, 3)
 
+    def test_yu(self):
+        c = Calculator(6, 2)
+        result = c.yu()
+        self.assertEqual(result, 0)
+
 
 if __name__ == '__main__':
     unittest.main()
